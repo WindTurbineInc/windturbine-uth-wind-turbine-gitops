@@ -1,0 +1,15 @@
+app:
+  name: windturbine-uth-wind-turbine-app
+  namespace: windturbine-uth
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/windturbine-uth-wind-turbine
+  org: WindTurbineInc
+  name: windturbine-uth-wind-turbine
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: windturbine-uth/wind-turbine-app
+  tag: latest
